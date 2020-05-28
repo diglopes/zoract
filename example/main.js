@@ -1,3 +1,4 @@
 const container = document.getElementById("root");
 
-console.log(zoract.createElement("h1", { title: "foo" }, "bar"));
+const element = zoract.createElement("h1", { title: "foo" }, "bar");
+zoract.render(element, container);
